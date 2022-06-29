@@ -8,7 +8,7 @@ btn.addEventListener('click',function(){
     display1.innerHTML = randomchat;
 
 let display = document.getElementById('userbox').value;
-let display2 = document.getElementById('display2').innerHTML=display;
+document.getElementById('display2').innerHTML=display;
 document.getElementById('userbox').value='';
 
  })
